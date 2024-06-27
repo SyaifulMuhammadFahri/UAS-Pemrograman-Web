@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventour</title>
+    <link rel="icon" href="./assets/files/logo.png">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+
+    <!-- Background Video & Header -->
+
+    <div class="banner">
+        <video src="./assets/files/bgvid.mp4" type="video/mp4" autoplay muted loop></video>
+
+        <!-- Header -->
+        
+
+        <div class="content" id="home">
+            <nav>
+                <img src="./assets/files/logo.png" class="logo" alt="Logo" title="FirstFlight Travels">
+                <ul class="navbar">
+                    <li>
+                        <a href="#home">Home</a>
+                        <a href="#package">Paket</a>
+                        <a href="#locations">Lokasi</a>
+                        <a href="./info.htm">Tentang Kami</a>
+                        <a href="./contact.htm">Hubungi Kami</a>
+                    </li>
+                </ul>
+                </form>
+            </nav>
+              
+
+            <div class="title">
+                <h1>ADVENTOUR</h1>
+                <p>Lihat Dunia dengan Harga Lebih Murah! Jelajahi Destinasi Menakjubkan dengan Paket Hemat Kami.  </p>
+
+                <div class="wrapper">
+                    <form action="#">
+                        <div class="h5 font-weight-bold text-center mb-3" >Cari Tujuan Anda</div>
+                        <div class="destination">
+                            <label for="city" >Masukkan tujuan Anda</label>
+                          </div>
+                          
+                        <div class="form-group ">
+                            <input type="text" class="form-control" placeholder="Enter Your Name">
+                        </div>
+                        <div class="destination">
+                            <label for="city" >Masukkan tanggal Anda</label>
+                        </div>
+                        <div class="form-group">
+                            <input autocomplete="off" type="date" class="form-control" placeholder="Select your date">
+                        </div>
+                        <div class="form-group">
+                            <div class="lable_total flex">
+                                  <label class="destination"  for="price">Harga Maks: <span id="result">2500</span> 
+                                </label>
+                            </div>
+                            <input id="mySlider" type="range" min="0" max="10000" value="2500"  style="width: 215px;">
+                            <script>
+                                mySlider.oninput = showSliderValue;
+                                function showSliderValue() {
+                                    result.innerText = this.value;
+                                }
+                            </script>
+                        </div>
+                    </form>
+                </div>
+
+                <a href="./booking.htm" class="button">
+                    <span class="material-symbols-outlined">
+                        bagaimana_untuk_reg
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <section class="container">
+        <div class="text">
+            <h2>Kami memiliki layanan terbaik yang tersedia untuk Anda!</h2>
+        </div>
+        <div class="rowitems">
+
+            <div class="container-box">
+                <div class="container-image">
+                    <img src="./assets/files/1a.jpg" alt="Flight Services">
+                </div>
+                <h4>Layanan Penerbangan</h4>
+                <p>Kedatangan dan keberangkatan</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-image">
+                    <img src="./assets/files/2a.jpg" alt="Food Services">
+                </div>
+                <h4>Layanan Makanan</h4>
+                <p>Katering</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-image">
+                    <img src="./assets/files/3a.jpg" alt="Travel Services">
+                </div>
+                <h4>Layanan Perjalanan</h4>
+                <p>Ambil/jatuhkan</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-image">
+                    <img src="./assets/files/4a.jpg" alt="Hotel Services">
+                </div>
+                <h4>Layanan Hotel</h4>
+                <p>Lapor masuk/keluar</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages -->
+
+    <section class="package" id="package">
+        <div class="package-title">
+            <h2>Paket</h2>
+        </div>
+
+        <div class="package-content">
+            <div class="text-block">
+                <h3>Tujuan Terlaris</h3>
+            </div>
+
+            <a href="./package.htm#2700">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/p1.jpg" alt="">
+                        <h3>Mulai dari Rp.2.700</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.htm#4999">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/p2.jpg" alt="">
+                        <h3>Mulai dari Rp.4.999</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.html#9999">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/p3.jpg" alt="">
+                        <h3>Mulai dari Rp.9,999</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.htm#30000">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/p4.jpg" alt="">
+                        <h3>Mulai dari Rp.30,000</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.htm#37700">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/pac1.jpeg" alt="">
+                        <h3>Mulai dari Rp.37,700/-</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.htm#47500">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/pac1.jpg" alt="">
+                        <h3>Mulai dari Rp.47,500/-</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.htm#58500">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/pac3.jpg" alt="">
+                        <h3>Mulai dari Rp.58,500/-</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.htm#59500">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/pac7.jpg" alt="">
+                        <h3>Mulai dari Rp.59,500/-</h3>
+                    </div>
+                </div>
+            </a>
+            <a href="./package.htm#59500">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/l3.jpg" alt="">
+                        <h3>Mulai dari Rp.65,500/-</h3>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <section>
+        <br><br>
+        <div class="pack4-content">
+            <div style="text-align:center">
+                <button type="button" class="btn btn-primary"><a href="./booking.htm"><JavaBlink>Pesan sekarang</JavaBlink></a></button>
+            </div>
+        </div><br><br>
+    </section>
+
+    <section class="package2" id="package">
+        <div class="pack5-content">
+
+            <div class="text-block">
+                <h3>Terlaris di Diskon EPIC</h3>
+                <p>Dapatkan paket terlaris kami dengan harga yang luar biasa. Dapatkan DISKON 50% untuk tamasya terbaik, E-Visa Gratis
+                    & lagi!!</p>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pack5.1.jpg" alt="">
+                    <h3>Mesir</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pack5.2.jpg" alt="">
+                    <h3>Vietnam</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pac2.3.jpg" alt="">
+                    <h3>Karala</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pac2.4.webp" alt="">
+                    <h3>Bali</h3>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+
+    <section class="package2" id="package">
+
+        <div class="package2-content">
+            <div class="text-block">
+                <h3>Penawaran Jackpot pada Paket Terlaris</h3>
+                <p>Hemat ekstra dengan penawaran eksklusif kami!</p>
+            </div>
+
+            <a href="./assets/package.htm#6000">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/pac2.1.jpg" alt="">
+                        <h3> Thailand </h3>
+                    </div>
+                </div>
+            </a>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pack2.2.jpg" alt="">
+                    <h3>Goa</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pac2.3.jpg" alt="">
+                    <h3>Karala</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pac2.4.webp" alt="">
+                    <h3>Bali</h3>
+                </div>
+            </div>
+
+            <a href="./package.htm#6000">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/pac2.5.jpg" alt="">
+                        <h3>Kashmir</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Explore Button -->
+
+        <div style="text-align:center">
+            <button type="button" class="btn btn-primary"> <a href="package.htm">Jelajahi Lebih Lanjut</a></button>
+        </div>
+    </section><br><hr><br>
+
+    <!-- Locations -->
+
+    <section class="locations" id="locations">
+        <div class="package-title">
+            <h2>Lokasi</h2>
+        </div>
+
+        <div class="location-content">
+            <a href="./locations.htm">
+                <div class="col-content">
+                    <img src="./assets/files/l1.jpg" alt="">
+                    <h5>India</h5>
+                    <p>Kashmir</p>
+                </div>
+            </a>
+
+            <a href="./locations.htm#istanbul">
+                <div class="col-content">
+                    <img src="./assets/files/l2.jpg" alt="">
+                    <h5>Turkey</h5>
+                    <p>Istanbul</p>
+                </div>
+            </a>
+
+            <a href="./locations.htm#paris">
+                <div class="col-content">
+                    <img src="./assets/files/l3.jpg" alt="">
+                    <h5>France</h5>
+                    <p>Paris</p>
+                </div>
+            </a>
+
+            <a href="./locations.htm#bali">
+                <div class="col-content">
+                    <img src="./assets/files/l4.jpg" alt="">
+                    <h5>Indonesia</h5>
+                    <p>Bali</p>
+                </div>
+            </a>
+
+            <a href="./locations.htm#dubai">
+                <div class="col-content">
+                    <img src="./assets/files/l5.jpg" alt="">
+                    <h5>Uni Emirat Arab</h5>
+                    <p>Dubai</p>
+                </div>
+            </a>
+
+            <a href="./locations.htm#geneva">
+                <div class="col-content">
+                    <img src="./assets/files/l6.jpg" alt="">
+                    <h5>Switzerland</h5>
+                    <p>Geneva</p>
+                </div>
+            </a>
+
+            <a href="./locations.htm#port-blair">
+                <div class="col-content">
+                    <img src="./assets/files/l7.jpg" alt="">
+                    <h5>Andaman & Nicobar</h5>
+                    <p>Port Blair</p>
+                </div>
+            </a>
+        </div>
+    </section><br><hr>
+
+    <!-- FAQ;s -->
+
+    <section><br>
+        <div class="destination-title">
+            <h2>Destinasi Terbaik untuk Dikunjungi di India</h2>
+        </div>
+        <div class="container1">
+            <style>
+                .destination-title {
+                    text-align: center;
+                }
+
+                .container1 {
+                    display: grid;
+                    position: relative;
+                    grid-template-columns: auto auto auto;
+                    background: color #f6f1f1;
+                    padding: 48px;
+                    font-size: 12px;
+                    gap: 10px;
+                    margin-top: 5px;
+                    margin-left: 100px;
+                    margin-right: 100px;
+                    margin-bottom: 1px;
+
+                    .loc-detail li {
+                        font-size: 10px;
+                        color: black;
+                        margin-left: 15px;
+                        margin-bottom: 2px;
+                        list-style-type: circle;
+                    }
+
+                    .box {
+                        background: inherit;
+                        color: black;
+                        box-shadow: 5px 5px 10px #3b3737;
+                        padding: 5px;
+                        border-radius: 15px;
+                    }
+                }
+            </style>
+
+            <div class="box">
+                <h1>Goa</h1>
+                <p>Tempat pesta tidak resmi di India, Goa lebih dari itu. Ini memiliki warisan besar, sejarah dan
+                    budaya yang masih perlu dieksplorasi. Namun jika pantai adalah yang Anda cari, maka negara bagian
+                    memiliki itu juga. Dan itulah mengapa, tur India ke Goa adalah pilihan bagus untuk menjelajahi tempat tersebut,
+                    sesuai dengan minat Anda. Paket liburan Goa juga populer karena Goa termasuk salah satu yang teratas
+                    tempat di dunia dalam hal kehidupan malam. Temukan beberapa paket wisata menarik dan lainnya
+                    Paket liburan India yang memungkinkan Anda mencoba beragam olahraga air Goa dan aktivitas menyenangkan lainnya.
+                    <br>
+                    <br><b>Waktu terbaik untuk berkunjung :</b> November to February <br>
+
+                    <br> <b>Tempat terbaik untuk dikunjungi:</b>
+                <ul class="loc-detail">
+                    <li>Calangute</li>
+                    <li>Baga</li>
+                    <li>Anjuna</li>
+                    <li> Miramar</li>
+                    <li> Palolem</li>
+                    <li> Panjim</li>
+                </ul>
+
+                <br> Anda juga dapat memasukkan Pantai Patnem yang unik ke dalam paket wisata liburan Anda
+                terdaftar di antara salah satu dari 20 pantai terbaik di Asia.
+                </p>
+            </div>
+
+            <div class="box">
+                <h1>
+                    Kerala
+                </h1>
+                <p>Negeri Tuhan sendiri, Kerala telah menjadi tujuan wisata populer di India. Anda bisa menjelajahi semuanya
+                    dengan tur India ke tujuan yang luar biasa ini. Dengan paket wisata yang sesuai, Anda bisa menjelajah
+                    tujuan tepi laut yang indah dan stasiun bukit di Kerala. <br>
+                    <br> <b>Waktu terbaik untuk berkunjung:</b> September to March <br>
+
+                    <br> <b>Waktu terbaik untuk berkunjung:</b>
+                <ul class="loc-detail">
+                    <li>Sree Padmanabhaswamy Temple</li>
+                    <li> Francis CSI Church</li>
+                    <li> Paradesi Synagogue</li>
+                    <li> Eravikulam National Park
+                        Varkala Beach</li>
+                    <li>Athirappilly Waterfalls</li>
+                </ul>
+                <br>
+
+                <br>
+                Jika Anda merencanakan paket liburan India di negara bagian tersebut, maka Anda tidak boleh melewatkannya
+                masakan yang menggugah selera juga. Periksa paket wisata liburan Anda dan pesan sesuai kebutuhan.</p>
+
+            </div>
+
+            <div class="box">
+                <h1>Kashmir</h1>
+                <p>
+                    Selama beberapa dekade, lembah Kashmir telah menarik wisatawan dari seluruh dunia. Jika Anda tidak bisa
+                    merencanakan liburan Anda sendiri, Anda harus melihat tur India ke Kashmir untuk membantu Anda
+                    liburan yang tak terlupakan. Dengan paket wisata semua India yang tepat, Anda dapat menemukan tanaman hijau subur
+                    lembah, puncak yang tertutup salju, dan satwa liar yang cantik. Paket perjalanan Anda harus mencakup Chenab,
+                    Lembah Sindh dan Lidder. Jangan lupa untuk membeli selendang Kashmir yang terkenal di dunia dan unik
+                    kerajinan tangan untuk orang yang Anda cintai. <br>
+                    <br> <b> Waktu Terbaik untuk Berkunjung:</b> March to August <br>
+
+                    <br>Waktu Terbaik untuk Berkunjung: <br>
+                <ul class="loc-detail">
+                    <li>Gulmarg</li>
+                    <li> Srinagar</li>
+                    <li> Dal Lake</li>
+                    <li> Sonamarg</li>
+                    <li> Indira Gandhi Tulip Garden</li>
+                </ul>
+                <br>
+                <br>Tempat-tempat ini harus dimasukkan dalam paket wisata terbaik untuk Kashmir. Temukan paket perjalanan ke
+                memenuhi semua kebutuhan dan Anda juga dapat menemukan paket bulan madu yang istimewa, karena Kashmir sangat halus
+                tujuan untuk bulan madu India yang sempurna</p>
+            </div>
+
+            <div class="box">
+                <h1>Sikkim</h1>
+                <p>Jika Anda sedang mencari destinasi India yang cocok untuk paket wisata dunia, maka carilah no
+                    lebih jauh dari Sikkim. Anda dapat merencanakan tur India yang menakjubkan ke keajaiban gunung ini, yang merupakan rumahnya
+                    puncak tertinggi di negara itu, Kanchenjunga. Ini tentu saja merupakan tujuan yang bagus untuk kualitas
+                    paket wisata internasional. Lihatlah paket wisata Sikkim untuk perjalanan ke India yang menawan ini
+                    negara. <br>
+                    <br> <b>Waktu Terbaik untuk Berkunjung:</b> March to May <br>
+
+                    <br> Waktu Terbaik untuk Berkunjung:
+                <ul class="loc-detail">
+                    <li> Gangtok</li>
+                    <li> Nathu La Pass</li>
+                    <li> Tsomgo Lake</li>
+                    <li> Rumtek Monastery</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="box">
+                <h1>Shimla</h1>
+                <p> Shimla, Ratu Perbukitan, adalah bahan dari tur India yang indah! Shimla adalah a
+                    Besar
+                    tujuan paket bulan madu internasional, dengan pemandangan alamnya yang masih alami, pegunungan,
+                    tanaman hijau
+                    dan cuaca romantis. Tur Shimla juga berarti mengunjungi kafe dan restoran yang menyenangkan
+                    Di Sini. <br>
+
+                    <br> <b>Waktu Terbaik untuk Berkunjung:</b> Mei hingga Juni/Desember hingga Januari<br>
+
+                    <br>Waktu Terbaik untuk Berkunjung:
+                <ul class="loc-detail">
+                    <li>The Ridge</li>
+                    <li> Green Valley</li>
+                    <li> Mall Road</li>
+                    <li> Jakhoo Hill</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="box">
+                <h1> Uttarakhand</h1>
+                <p> Ada banyak tur India yang menjadikan Uttarakhand sebagai yang terdepan dan mengapa tidak? Negara adalah
+                    diberkati dengan keindahan alam yang tak tertandingi. Temukan paket wisata Uttarakhand yang mencakup beberapa yang populer
+                    tujuan. Negara bagian ini menawarkan perpaduan yang tepat antara spiritualitas, trekking, petualangan, keindahan
+                    pemandangan pegunungan dan menyambut penduduk setempat. <br>
+
+                    <br> <b>Waktu Terbaik untuk Berkunjung:</b> Maret hingga April/September hingga Oktober <br>
+
+                    <br>Waktu Terbaik untuk Berkunjung:
+                <ul class="loc-detail">
+                    <li> Dehradun</li>
+                    <li> Mussoorie</li>
+                    <li> Nainital</li>
+                    <li> Auli</li>
+                    <li> Rishikesh</li>
+                </ul>
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+
+        <div class="container2">
+            <style>
+                .container2 {
+                    position: relative;
+                    grid-template-columns: auto auto auto;
+                    gap: 5%;
+                    padding: 35px;
+                    margin-top: 50px;
+                    margin-left: 35px;
+                    margin-right: 34px;
+                    border-radius: 10px;
+                    font-size: 12px;
+                    color: black;
+                    background-color: white;
+                    box-shadow: 5px 5px 10px #3b3737;
+                }
+            </style>
+
+            <div> <br>
+                <h1 class="faqh1">FAQs - Frequently Asked Questions</h1>
+            </div>
+
+            <p><br>
+            <h3> Destinasi seperti apa yang bisa saya pilih untuk bepergian?</h3> <br>
+            <p> Anda dapat memilih tujuan perjalanan mana pun sesuai suasana hati Anda. Untuk liburan penuh aksi, Anda bisa memilih
+                satwa liar, trekking, dan tujuan petualangan lainnya. Untuk liburan romantis bersama seseorang yang spesial,
+                Anda dapat memilih dari berbagai tujuan ramah pasangan. Anda juga dapat memilih jenis liburan Anda
+                inginkan berdasarkan destinasi yang Anda suka—apakah bukit, gunung, pantai, warisan budaya, atau situs ziarah.
+            </p><br>
+            <hr>
+
+            <br>
+            <h3> Bolehkah saya memilih liburan yang hemat anggaran?</h3><br>
+            <p>
+                Ya kamu bisa. Yang harus Anda lakukan adalah menetapkan perkiraan jumlah pengeluaran dalam pikiran Anda sebelum memulai
+                mengeksplorasi ide-ide di sini. Anda dapat mencari tujuan yang cocok untuk perjalanan Anda dalam rentang apa pun
+                Rp. 10.000 hingga Rp. 50.000. Disarankan untuk melakukan semua pemesanan terlebih dahulu untuk menghindari perubahan
+                dalam harga.</p><br>
+            <hr>
+
+            <br>
+            <h3> Jam berapa dalam setahun yang paling cocok untuk memesan liburan?</h3><br>
+            <p>x
+                Liburan dapat dipesan sepanjang tahun. Anda hanya perlu memilih bulan yang Anda rencanakan
+                Bepergian. Daftar ide kami yang telah dikurasi dirancang sedemikian rupa sehingga Anda hanya dapat melihatnya saja
+                tujuan yang paling sesuai untuk bulan tertentu dalam setahun. Jika Anda memilih kombinasi
+                filter yang menentukan bulan, anggaran, dan tujuan perjalanan Anda, Anda akan mendapatkan tujuan yang sesuai
+                nama dan detail lainnya.</p><br>
+            <hr>
+
+            <br>
+            <h3>Apa saja yang akan saya dapatkan dalam ide liburan?</h3>
+            <p>Setelah Anda memilih tujuan, itu akan memberi Anda rincian lengkap tentang semua hal unik tentang tujuan tersebut
+                tempat yang tidak boleh dilewatkan, termasuk situs lokal yang paling banyak dikunjungi, tempat menginap terbaik, dan sebagainya
+                pengalaman berkesan yang dapat Anda nikmati. Anda akan diberikan berbagai pilihan hotel, resor, dan
+                wisma untuk dipilih tergantung pada anggaran Anda. </p> <br>
+            <hr>
+            </p>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+
+    <section class="newsletter">
+        <div class="newstext">
+            <h2>Newsletter</h2>
+            <p>Berlanggananlah untuk mendapatkan penawaran dan<br>pembaruan terkini setiap minggu</p>
+        </div>
+
+        <div class="send">
+            <form action="">
+                <input type="email" name="emailid" placeholder="E-mail" required>
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <div class="foot">
+            <div class="footer-content">
+
+                <div class="footlinks">
+                    <h4>tautan langsung</h4>
+                    <ul>
+                        <li><a href="./booking.htm">Daftar</a></li>
+                        <li><a href="./info.htm">Tentang Kami</a></li>
+                        <li><a href="./contact.htm">Hubungi kami</a></li>
+                    </ul>
+                </div>
+
+                <div class="footlinks">
+                    <h4>Connect</h4>
+                    <div class="social">
+                        <a href="https://github.com/SyaifulMuhammadFahri" target="_blank"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="end">
+            <p>Copyright © 2023 Adventour All Rights Reserved.<br>Website developed by: Amit Kumar Singh</p>
+        </div>
+    </section>
+ <SCRIPT type="text/javascript">
+        function JavaBlink() {
+           var blinks = document.getElementsByTagName('JavaBlink');
+           for (var i = blinks.length - 1; i >= 0; i--) {
+              var s = blinks[i];
+              s.style.visibility = (s.style.visibility === 'visible') ? 'hidden' : 'visible';
+           }
+           window.setTimeout(JavaBlink, 500);
+        }
+        if (document.addEventListener) document.addEventListener("DOMContentLoaded", JavaBlink, false);
+        else if (window.addEventListener) window.addEventListener("load", JavaBlink, false);
+        else if (window.attachEvent) window.attachEvent("onload", JavaBlink);
+        else window.onload = JavaBlink;
+      </SCRIPT>
+</body>
+
+</html>
